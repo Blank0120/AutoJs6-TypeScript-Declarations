@@ -9,14 +9,14 @@
   <p>TypeScript Declarations for AutoJs6</p>
 
   <p>
-    <a href="http://dts-project.autojs6.com/blob/main/package.json"><img alt="Version name" src="https://img.shields.io/badge/dynamic/json?color=534BAE&label=version&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2FSuperMonster003%2FAutoJs6-TypeScript-Declarations%2Fmaster%2Fpackage.json"/></a>
-    <a href="http://dts-issues.autojs6.com"><img alt="GitHub issues" src="https://img.shields.io/github/issues/SuperMonster003/AutoJs6-TypeScript-Declarations?color=009688"/></a>
+    <a href="http://dts-project.autojs6.com/blob/main/package.json"><img alt="Version name" src="https://img.shields.io/badge/dynamic/json?color=534BAE&label=version&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2FBlank0120%2FAutoJs6-TypeScript-Declarations%2Fmaster%2Fpackage.json"/></a>
+    <a href="http://dts-issues.autojs6.com"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Blank0120/AutoJs6-TypeScript-Declarations?color=009688"/></a>
     <a href="http://project.autojs6.com"><img alt="GitHub AutoJs6 repository" src="https://img.shields.io/badge/autojs6->=6.3.3-388E3C"/></a>
-    <a href="https://github.com/topics/javascript"><img alt="GitHub top language" src="https://img.shields.io/github/languages/top/SuperMonster003/AutoJs6-TypeScript-Declarations?color=3178C6"/></a>
+    <a href="https://github.com/topics/javascript"><img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Blank0120/AutoJs6-TypeScript-Declarations?color=3178C6"/></a>
    <br>
-    <a href="https://github.com/SuperMonster003/AutoJs6-TypeScript-Declarations/commit/f8250babdb161e12ad2e14c73e8aa2b5d7d89cbc"><img alt="Created" src="https://img.shields.io/date/1635813883?color=C56000&label=created"/></a>
-    <a href="https://github.com/SuperMonster003/AutoJs6-TypeScript-Declarations/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/SuperMonster003/AutoJs6-TypeScript-Declarations?color=C63F17"/></a>
-    <a href="https://github.com/SuperMonster003/AutoJs6-TypeScript-Declarations/find/master"><img alt="GitHub Code Size" src="https://img.shields.io/github/languages/code-size/SuperMonster003/AutoJs6-TypeScript-Declarations?color=795548"/></a>
+    <a href="https://github.com/Blank0120/AutoJs6-TypeScript-Declarations/commit/f8250babdb161e12ad2e14c73e8aa2b5d7d89cbc"><img alt="Created" src="https://img.shields.io/date/1635813883?color=C56000&label=created"/></a>
+    <a href="https://github.com/Blank0120/AutoJs6-TypeScript-Declarations/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/Blank0120/AutoJs6-TypeScript-Declarations?color=C63F17"/></a>
+    <a href="https://github.com/Blank0120/AutoJs6-TypeScript-Declarations/find/master"><img alt="GitHub Code Size" src="https://img.shields.io/github/languages/code-size/Blank0120/AutoJs6-TypeScript-Declarations?color=795548"/></a>
     <a href="https://www.jetbrains.com/?from=AutoJs6-TypeScript-Declarations"><img alt="JetBrains supporter" src="https://img.shields.io/badge/supporter-JetBrains-ee4677"/></a>
   </p>
 </div>
@@ -58,14 +58,14 @@
 ##### 从 NPM 获取 (推荐)
 
 ```shell
-npm i @sm003/autojs6-dts
+npm i @blank0120/autojs6-dts
 ```
 
-安装后, 定位到 `/node_modules/@sm003/autojs6-dts/declarations`.
+安装后, 定位到 `/node_modules/@blank0120/autojs6-dts/declarations`.
 
 ##### 从 GitHub 获取
 
-[下载最新项目 zip 数据包](https://github.com/SuperMonster003/AutoJs6-TypeScript-Declarations/archive/main.zip), 解压后得到 `declarations` 文件夹.
+[下载最新项目 zip 数据包](https://github.com/Blank0120/AutoJs6-TypeScript-Declarations/archive/main.zip), 解压后得到 `declarations` 文件夹.
 
 #### [ 2 ] - 放置声明文件的主目录
 
@@ -100,9 +100,9 @@ npm i @sm003/autojs6-dts
 
 #### [ 4 ] - VSCode 编辑器的额外配置
 
-VSCode 可能无法像 WebStorm 一样识别任意位置的 declarations 文件夹, 尤其是使用 npm 命令部署后, declarations 文件夹更是难以被 VSCode 默认识别. 因此需要将 [jsconfig.json](https://github.com/SuperMonster003/AutoJs6-TypeScript-Declarations/blob/main/jsconfig.json) 文件复制到项目根目录中, 如:
+VSCode 可能无法像 WebStorm 一样识别任意位置的 declarations 文件夹, 尤其是使用 npm 命令部署后, declarations 文件夹更是难以被 VSCode 默认识别. 因此需要将 [jsconfig.json](https://github.com/Blank0120/AutoJs6-TypeScript-Declarations/blob/main/jsconfig.json) 文件复制到项目根目录中, 如:
 
-> hello / mode_modules / @sm003 / autojs6-dts / ...  
+> hello / mode_modules / @blank0120 / autojs6-dts / ...  
 > hello / jsconfig.json  
 > hello / main.js  
 > ... ...
@@ -113,7 +113,7 @@ VSCode 可能无法像 WebStorm 一样识别任意位置的 declarations 文件�
 {
   "compilerOptions": {
     "typeRoots": [
-      "./node_modules/@sm003/autojs6-dts/declarations",
+      "./node_modules/@blank0120/autojs6-dts/declarations",
       "./declarations"
     ]
   }
@@ -131,10 +131,10 @@ VSCode 可能无法像 WebStorm 一样识别任意位置的 declarations 文件�
 从 NPM 直接获取更新:
 
 ```shell
-npm update @sm003/autojs6-dts
+npm update @blank0120/autojs6-dts
 ```
 
-如需检查更新, 除直接到 [当前项目主页](http://dts-project.autojs6.com) 查看外, 还可定位到项目根目录的 package.json 文件, 鼠标悬停在 @sm003/autojs6-dts 依赖项的版本值处, 在浮动窗口中可查看是否存在版本更新. 另外 VSCode 也可借助 [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens) 插件实现版本更新检查.
+如需检查更新, 除直接到 [当前项目主页](http://dts-project.autojs6.com) 查看外, 还可定位到项目根目录的 package.json 文件, 鼠标悬停在 @blank0120/autojs6-dts 依赖项的版本值处, 在浮动窗口中可查看是否存在版本更新. 另外 VSCode 也可借助 [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens) 插件实现版本更新检查.
 
 通常情况下, [AutoJs6](http://autojs6.com) 发布版本更新后, 声明文件项目也会伴随更新.
 
@@ -175,7 +175,7 @@ npm update @sm003/autojs6-dts
 
 ##### 更多版本历史可参阅
 
-* [CHANGELOG.md](https://github.com/SuperMonster003/AutoJs6-TypeScript-Declarations/blob/main/docs/CHANGELOG.md)
+* [CHANGELOG.md](https://github.com/Blank0120/AutoJs6-TypeScript-Declarations/blob/main/docs/CHANGELOG.md)
 
 ******
 
@@ -187,7 +187,7 @@ npm update @sm003/autojs6-dts
 
 - 由 jar 文件生成 d.ts 声明文件的工具
 
-[AutoJs6-VSCode-Extension](http://vscext-project.autojs6.com) by [SuperMonster003](https://github.com/SuperMonster003)
+[AutoJs6-VSCode-Extension](http://vscext-project.autojs6.com) by [Blank0120](https://github.com/Blank0120)
 
 - AutoJs6 调试器 (VSCode 平台插件)
 
@@ -214,7 +214,7 @@ I believe I could make it better with your support :) <br>
     #               npm commands               #
     # -----------------------------------------#
     - User initialization
-        - npm adduser sm003
+        - npm adduser blank0120
     - Pack [ not necessary for publishing ]
         - npm pack
     - Publish

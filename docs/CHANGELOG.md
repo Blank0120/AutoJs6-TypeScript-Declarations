@@ -87,7 +87,7 @@
 * `优化` 适配 AutoJs6 6.2.1 Alpha2
 * `优化` android platform 27 声明文件升级为 33 版本
 * `优化` 还原方法签名中 param0/param1/... 的原始参数名称
-* `管理` 项目已发布至 NPM (@sm003/autojs6-dts)
+* `管理` 项目已发布至 NPM (@blank0120/autojs6-dts)
 
 # v1.0.2
 

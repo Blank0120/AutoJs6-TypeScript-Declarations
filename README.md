@@ -58,10 +58,10 @@
 ##### 从 NPM 获取 (推荐)
 
 ```shell
-npm i @blank0120/autojs6-dts
+npm i @icecreamcake/autojs6-dts
 ```
 
-安装后, 定位到 `/node_modules/@blank0120/autojs6-dts/declarations`.
+安装后, 定位到 `/node_modules/@icecreamcake/autojs6-dts/declarations`.
 
 ##### 从 GitHub 获取
 
@@ -102,7 +102,7 @@ npm i @blank0120/autojs6-dts
 
 VSCode 可能无法像 WebStorm 一样识别任意位置的 declarations 文件夹, 尤其是使用 npm 命令部署后, declarations 文件夹更是难以被 VSCode 默认识别. 因此需要将 [jsconfig.json](https://github.com/Blank0120/AutoJs6-TypeScript-Declarations/blob/main/jsconfig.json) 文件复制到项目根目录中, 如:
 
-> hello / mode_modules / @blank0120 / autojs6-dts / ...  
+> hello / mode_modules / @icecreamcake / autojs6-dts / ...  
 > hello / jsconfig.json  
 > hello / main.js  
 > ... ...
@@ -113,7 +113,7 @@ VSCode 可能无法像 WebStorm 一样识别任意位置的 declarations 文件�
 {
   "compilerOptions": {
     "typeRoots": [
-      "./node_modules/@blank0120/autojs6-dts/declarations",
+      "./node_modules/@icecreamcake/autojs6-dts/declarations",
       "./declarations"
     ]
   }
@@ -131,10 +131,10 @@ VSCode 可能无法像 WebStorm 一样识别任意位置的 declarations 文件�
 从 NPM 直接获取更新:
 
 ```shell
-npm update @blank0120/autojs6-dts
+npm update @icecreamcake/autojs6-dts
 ```
 
-如需检查更新, 除直接到 [当前项目主页](http://dts-project.autojs6.com) 查看外, 还可定位到项目根目录的 package.json 文件, 鼠标悬停在 @blank0120/autojs6-dts 依赖项的版本值处, 在浮动窗口中可查看是否存在版本更新. 另外 VSCode 也可借助 [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens) 插件实现版本更新检查.
+如需检查更新, 除直接到 [当前项目主页](http://dts-project.autojs6.com) 查看外, 还可定位到项目根目录的 package.json 文件, 鼠标悬停在 @icecreamcake/autojs6-dts 依赖项的版本值处, 在浮动窗口中可查看是否存在版本更新. 另外 VSCode 也可借助 [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens) 插件实现版本更新检查.
 
 通常情况下, [AutoJs6](http://autojs6.com) 发布版本更新后, 声明文件项目也会伴随更新.
 
@@ -214,7 +214,7 @@ I believe I could make it better with your support :) <br>
     #               npm commands               #
     # -----------------------------------------#
     - User initialization
-        - npm adduser blank0120
+        - npm adduser icecreamcake
     - Pack [ not necessary for publishing ]
         - npm pack
     - Publish

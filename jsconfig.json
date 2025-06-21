@@ -7,7 +7,7 @@
       "ES6"
     ],
     "typeRoots": [
-      "./node_modules/@blank0120/autojs6-dts/declarations",
+      "./node_modules/@icecreamcake/autojs6-dts/declarations",
       "./declarations"
     ]
   },
